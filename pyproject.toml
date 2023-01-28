@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ans-pycli"
+version = "0.0.0"
+description = "CLI for your python projects"
+authors = ["alxnsmith <alx.n.smith@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ans-pycli"}]
+
+[tool.poetry.urls]
+github="https://github.com/alxnsmith/ans-pycli"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
