@@ -34,7 +34,7 @@ class CLI(mixins.HasSubparsers):
 
     def run(self):
         args = self.parser.parse_args()
-        res = args.func()
+        res = args.func(args)
         if self._DEBUG:
             print('Args: \n', args)
             print('Result: \n', res)
