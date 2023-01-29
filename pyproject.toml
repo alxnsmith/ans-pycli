@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ans-pycli"
-version = "0.0.3"
+version = "0.0.5"
 description = "CLI for your python projects"
 authors = ["alxnsmith <alx.n.smith@gmail.com>"]
 readme = "README.md"
