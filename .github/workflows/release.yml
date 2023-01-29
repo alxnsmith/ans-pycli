@@ -3,7 +3,10 @@ name: Release
 on:
   push:
     tags:
-      - '*.*.*'
+      - "*.*.*"
+
+permissions:
+  contents: write
 
 jobs:
   release:
@@ -27,7 +30,6 @@ jobs:
 
       - name: Build project for distribution
         run: poetry build
-
       - name: Check Version
         id: check-version
         run: |
